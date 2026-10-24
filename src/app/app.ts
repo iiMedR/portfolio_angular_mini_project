@@ -5,9 +5,10 @@ import { Projects } from './components/projects/projects';
 import { Project } from './models/project';
 import { About } from './components/about/about';
 import { Skills } from './components/skills/skills';
+import { Footer } from './components/footer/footer';
 
 @Component({
-  imports: [Navbar, Hero, Projects, About, Skills],
+  imports: [Navbar, Hero, Projects, About, Skills, Footer],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
@@ -62,4 +63,6 @@ export class App {
       featured: false,
     },
   ];
+
+  ownerName='Mohamed Reda El Ghazouani'
 }
