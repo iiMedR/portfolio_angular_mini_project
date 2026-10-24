@@ -1,0 +1,15 @@
+.about-me {
+  padding: 40px;
+  text-align: left;
+  background: #101b2e;
+  color: white;
+}
+
+.about-me h2 {
+  font-size: 2rem;
+}
+
+.about-me p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

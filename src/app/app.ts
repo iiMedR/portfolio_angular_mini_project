@@ -3,9 +3,10 @@ import { Navbar } from './components/navbar/navbar';
 import { Hero } from './components/hero/hero';
 import { Projects } from './components/projects/projects';
 import { Project } from './models/project';
+import { About } from './components/about/about';
 
 @Component({
-  imports: [Navbar, Hero, Projects],
+  imports: [Navbar, Hero, Projects, About],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
@@ -14,6 +15,8 @@ export class App {
   developerName = 'Reda';
   jobTitle = 'Backend Developer';
   introduction = 'I build reliable web applications';
+
+  aboutMe= 'I am a backend developer focused on building reliable and maintainable web applications.';
 
   myProjects: Project[] = [
     {
