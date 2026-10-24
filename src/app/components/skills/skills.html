@@ -1,0 +1,10 @@
+<section id="skills" class="skills-section">
+    <h2>My Skills</h2>
+    <div class="skills-list">
+        @for (skill of skills(); track skill) {
+            <span class="skill">{{ skill }}</span>
+        } @empty {
+            <p>No skills listed yet</p>
+        }
+    </div>
+</section>

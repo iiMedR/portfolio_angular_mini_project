@@ -4,9 +4,10 @@ import { Hero } from './components/hero/hero';
 import { Projects } from './components/projects/projects';
 import { Project } from './models/project';
 import { About } from './components/about/about';
+import { Skills } from './components/skills/skills';
 
 @Component({
-  imports: [Navbar, Hero, Projects, About],
+  imports: [Navbar, Hero, Projects, About, Skills],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
@@ -17,6 +18,15 @@ export class App {
   introduction = 'I build reliable web applications';
 
   aboutMe= 'I am a backend developer focused on building reliable and maintainable web applications.';
+
+  mySkills: string[] = [
+    'java',
+    'Spring Boot',
+    'MySQL',
+    'REST APIs',
+    'Angular',
+    'TypeScript'
+  ];
 
   myProjects: Project[] = [
     {
