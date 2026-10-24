@@ -1,0 +1,20 @@
+<section class="hero" id="home">
+        <div class="hero-content">
+            <p class="welcome">Welcome to my portfolio</p>
+
+            <h1>Hello, I'm {{ developerName() }}</h1>
+
+            <h2>{{ jobTitle() }}</h2>
+
+            <p>{{ introduction() }}</p>
+
+            <a href="#projects" class="btn">
+                View My Projects
+            </a>
+        </div>
+
+        <div class="hero-image">
+            <img [src]="profileImage()" alt="Profile picture">
+        </div>
+
+</section>

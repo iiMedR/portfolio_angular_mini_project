@@ -1,0 +1,12 @@
+<section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+    <p>Some applications I've worked on.</p>
+
+    <div class="projects-grid">
+        @for (project of projects(); track project.id) {
+            <app-project-card [project]="project"></app-project-card>
+        } @empty {
+            <p>No projects available yet.</p>
+        }
+    </div>
+</section>

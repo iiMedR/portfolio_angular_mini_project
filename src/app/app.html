@@ -1,7 +1,11 @@
 <main>
   <app-navbar></app-navbar>
 
-  <h1>Hello, I'm {{developerName}}</h1>
-  <h2>{{jobTitle}}</h2>
-  <p>{{introduction}}</p>
+  <app-hero
+      [developerName]="developerName"
+      [jobTitle]="jobTitle"
+      [introduction]="introduction">
+  </app-hero>
+
+  <app-projects [projects]="myProjects"></app-projects>
 </main>

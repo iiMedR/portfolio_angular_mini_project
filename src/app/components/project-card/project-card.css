@@ -1,0 +1,45 @@
+.project-card {
+  background: #202d43;
+  padding: 24px;
+  border-radius: 10px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.project-card h3 {
+  margin-top: 14px;
+  color: white;
+}
+
+.project-card p {
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.category {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.featured-badge {
+  background: #2563eb;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.technology {
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: #334155;
+  color: #93c5fd;
+  font-size: 12px;
+}
